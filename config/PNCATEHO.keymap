@@ -24,6 +24,7 @@
 #define LOL_NUMBERS_LAYER 7
 #define LOL_ADDITIONAL_LAYER 8
 #define LOL_FN_LAYER 9
+#define TUX_LAYER 10
 #define STICKY_TIMEOUT 500
 
 // SWITCHES
@@ -93,7 +94,7 @@
             label = "selection";
             bindings = <
 &to NAVIGATION_LAYER  &to LOL_MAIN_LAYER  &none  &to BLUETOOTH_LAYER
-&to RGB_LAYER         &to 10              &none  &to KBCTRL_LAYER
+&to RGB_LAYER         &to TUX_LAYER       &none  &to KBCTRL_LAYER
                                                  &to COMBO_LAYER      &none
             >;
         };
